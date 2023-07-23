@@ -2,7 +2,6 @@ import pageLoad from './pageLoad.js';
 import * as eventFunctions from './eventFunctions.js';
 import './style.css';
 
-
 function component() {
 
     const page = pageLoad();

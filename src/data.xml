@@ -4,14 +4,21 @@
         <name>Pancakes</name>
         <price>4€</price>
         <description>Delicious pancakes! Choose your topping too!</description>
-        <imageSource>./img/pancakes.jpg</imageSource>
+        <imageSource>./src/img/pancakes.jpg</imageSource>
     </item>
 
     <item>
         <name>Hot Chocolate</name>
         <price>3€</price>
         <description>Delicious hot chocolate, perfect for a cold day!</description>
-        <imageSource>./img/hot-chocolate.jpg</imageSource>
+        <imageSource>./src/img/hot-chocolate.jpg</imageSource>
+    </item>
+
+    <item>
+        <name>Ice-cream</name>
+        <price>5€</price>
+        <description>All flavors!</description>
+        <imageSource>./src/img/ice-cream.jpg</imageSource>
     </item>
 
 </menu>

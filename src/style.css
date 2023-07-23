@@ -94,6 +94,10 @@ li.active {
     background-color: brown;
 }
 
+main {
+    overflow: auto;
+}
+
 /* styles for the main part of the page */
 
 /*.mainTitle {
@@ -103,15 +107,29 @@ li.active {
 }*/
 
 .mainSection {
-    width: 80%;
-    height: 80%;
-    border: 2px dotted red;
+    height: 98%;
+    width: 100%;
     align-self: center;
     display: flex;
     justify-content: center;
+    overflow: auto;
 }
 
 img {
     align-self: center;
     max-height: 50%;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    margin: 1em;
+    padding: 1em;
+}
+
+.menu-img {
+    height: 100px;
+    align-self: center;
+    margin: 5px;
 }

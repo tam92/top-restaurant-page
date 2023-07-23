@@ -1,5 +1,11 @@
 import data from './data.xml';
 
+function importAll(r) {
+    return r.keys().map(r);
+  }
+
+const images = importAll(require.context('./img', false, /\.(png|jpe?g|svg)$/));
+
 export default function renderMenu () {
 
     const div = document.createElement("div");
@@ -42,9 +48,11 @@ function appendMenuItem(name, price, description, imageSource) {
     // img
     const img = document.createElement('img');
     img.setAttribute("src", imageSource);
+    img.setAttribute("class", "menu-img");
 
     // div
     const div = document.createElement('div');
+    div.setAttribute("class", "menu-item");
     div.appendChild(pTitle);
     div.appendChild(pPrice);
     div.appendChild(pDescription);
