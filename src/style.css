@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'TitleFont';
+    src: url('./fonts/Pacifico/Pacifico-Regular.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'navBarFont';
+    src: url('./fonts/Lobster/Lobster-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: aquamarine;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    align-self: center;
+    font-size: 3em;
+    font-family: 'TitleFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    background-color: antiquewhite;
+    height: 8vh;
+    font-family: "navBarFont", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+li {
+    display: flex;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+li:hover {
+    background-color: burlywood;
+}
+
+a {
+    color: blue;
+    font-size: 2em;
+    display: flex;
+    align-self: center;
+}
+
+main {
+    background-color: blueviolet;
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: fuchsia;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    align-self: center;
+    
+}
+
+li.active {
+    background-color: brown;
+}
+
+/* styles for the main part of the page */
+
+/*.mainTitle {
+    color: red;
+    display: flex;
+    justify-content: center;
+}*/
+
+.mainSection {
+    width: 80%;
+    height: 80%;
+    border: 2px dotted red;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    align-self: center;
+    max-height: 50%;
+}

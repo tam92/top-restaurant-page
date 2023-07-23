@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item>
+        <name>Pancakes</name>
+        <price>4€</price>
+        <description>Delicious pancakes! Choose your topping too!</description>
+        <imageSource>./img/pancakes.jpg</imageSource>
+    </item>
+
+    <item>
+        <name>Hot Chocolate</name>
+        <price>3€</price>
+        <description>Delicious hot chocolate, perfect for a cold day!</description>
+        <imageSource>./img/hot-chocolate.jpg</imageSource>
+    </item>
+
+</menu>
