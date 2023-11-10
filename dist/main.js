@@ -169,7 +169,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ renderFooter)\n/* harmony export */ });\nfunction renderFooter () {\r\n\r\n    const footer = document.createElement(\"footer\");\r\n    const p = document.createElement(\"p\");\r\n    p.innerHTML = \"Restaurant address\";\r\n    footer.appendChild(p);\r\n\r\n    return footer;\r\n}\n\n//# sourceURL=webpack://top-restaurant-page/./src/footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ renderFooter)\n/* harmony export */ });\nfunction renderFooter () {\r\n\r\n    const footer = document.createElement(\"footer\");\r\n    const p = document.createElement(\"p\");\r\n    p.innerHTML = \"Restaurant address. Phone number: #########\";\r\n    footer.appendChild(p);\r\n\r\n    return footer;\r\n}\n\n//# sourceURL=webpack://top-restaurant-page/./src/footer.js?");
 
 /***/ }),
 
