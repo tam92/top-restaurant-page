@@ -2,6 +2,14 @@
     margin: 0;
 }
 
+:root {
+    --color1: #050505;
+    --color2: #6E7271;
+    --color3: #ACAD94;
+    --color4: #D8D4D5;
+    --color5: #E2E2E2;
+}
+
 @font-face {
     font-family: 'TitleFont';
     src: url('./fonts/Pacifico/Pacifico-Regular.ttf');
@@ -24,20 +32,20 @@ body {
 }
 
 header {
-    background-color: aquamarine;
-    height: 12vh;
+    background-color: var(--color4);
+    height: 16vh;
     display: flex;
     justify-content: center;
 }
 
 h1 {
     align-self: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'TitleFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
-    background-color: antiquewhite;
+    background-color: var(--color4);
     height: 8vh;
     font-family: "navBarFont", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -58,26 +66,26 @@ li {
 }
 
 li:hover {
-    background-color: burlywood;
+    background-color: var(--color3);
 }
 
 a {
-    color: blue;
-    font-size: 2em;
+    color: var(--color1);
+    font-size: 1.5em;
     display: flex;
     align-self: center;
 }
 
 main {
-    background-color: blueviolet;
-    height: 72vh;
+    background-color: var(--color5);
+    height: 70vh;
     display: flex;
     justify-content: center;
 }
 
 footer {
-    background-color: fuchsia;
-    height: 8vh;
+    background-color: var(--color4);
+    height: 6vh;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -91,7 +99,7 @@ footer p {
 }
 
 li.active {
-    background-color: brown;
+    background-color: var(--color2);
 }
 
 main {
@@ -99,12 +107,6 @@ main {
 }
 
 /* styles for the main part of the page */
-
-/*.mainTitle {
-    color: red;
-    display: flex;
-    justify-content: center;
-}*/
 
 .mainSection {
     height: 98%;
@@ -123,7 +125,7 @@ img {
 .menu-item {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
+    border: 1px solid var(--color2);
     margin: 1em;
     padding: 1em;
 }
